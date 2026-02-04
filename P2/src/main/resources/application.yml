@@ -1,0 +1,17 @@
+# Application configuration
+spring:
+  application:
+    name: AEKI
+  datasource:
+    url: jdbc:postgresql://localhost:5432/AEKI
+    username: aeki
+    password: aeki
+
+# Server configuration
+server:
+  port: 10000
+
+# API documentation with Swagger
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
